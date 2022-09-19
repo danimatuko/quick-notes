@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
 html,
 body {
   padding: 0;
@@ -6,21 +8,15 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.page {
+  width: 100%;
+  background-color: #f9f9f9;
 }
 
-* {
-  box-sizing: border-box;
+.root {
+  display: flex;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.active {
+  background-color: #ebebeb;
 }
