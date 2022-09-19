@@ -40,7 +40,7 @@ const Create = () => {
   };
 
   return (
-    <Container sx={{ 'margin-top': 100 }}>
+    <Container sx={{ 'margin-top': 10 }}>
       <Typography
         variant='h6'
         component='h1'
@@ -104,6 +104,7 @@ const Create = () => {
           </RadioGroup>
         </FormControl>
         <Button
+          sx={{ display: 'block' }}
           type='submit'
           variant='contained'>
           Submit
